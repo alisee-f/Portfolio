@@ -22,7 +22,7 @@ export default function Contact() {
 </a>
       <p> Par mail : flechonalisee@gmail.com</p>
       <p> Par téléphone : 06 00 00 00 00</p>
-      <p>En m'envoyant un message ici :</p>
+      <p>En m envoyant un message ici :</p>
       <form className="mt-4 max-w-xl mx-auto">
         <label className="block text-lg mb-2">Nom</label>
         <input type="text" className="w-full p-2 border border-gray-300 rounded mb-4" />

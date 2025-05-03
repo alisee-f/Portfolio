@@ -39,7 +39,7 @@ export default function VeilleTechnologique() {
     <main style={styles.main}>
       <h1 style={styles.title}>Ma veille technologique</h1>
       <p style={styles.description}>
-      Bienvenue dans mon journal de veille sur l'intelligence artificielle appliquée à la psychologie clinique. Vous allez pouvoir retrouver ces thématiques :
+      Bienvenue dans mon journal de veille sur l intelligence artificielle appliquée à la psychologie clinique. Vous allez pouvoir retrouver ces thématiques :
       </p>
 
       <section style={styles.section}>
@@ -51,7 +51,7 @@ export default function VeilleTechnologique() {
       </section>
 
       <section style={styles.section}>
-        <h2 style={styles.sectionTitle}>J'ai réalisé ma veille à l'aide de Google Alert</h2>
+        <h2 style={styles.sectionTitle}>J ai réalisé ma veille à l aide de Google Alert</h2>
         <p>Vous pouvez la retrouver sur mon GitHub via :   
         <a href="https://github.com/alisee-f/veillePsychologieIA.git"
   target="_blank"

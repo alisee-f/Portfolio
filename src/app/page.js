@@ -26,7 +26,7 @@ export default function Home() {
   <h2 className="text-2xl font-semibold mb-4 text-center">📊 Tableau de compétences</h2>
   <iframe src="/tableauComp.pdf" 
     className="w-full h-[600px] border rounded-lg">
-    Votre navigateur ne prend pas en charge l'affichage PDF.
+    Votre navigateur ne prend pas en charge l affichage PDF.
   </iframe>
 
   <div className="text-center mt-4">

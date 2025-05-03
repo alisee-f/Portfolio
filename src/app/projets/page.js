@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function Projets() {
   const projects = [
     {
@@ -31,7 +32,9 @@ export default function Projets() {
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project, index) => (
           <div key={index} className="bg-white p-4 border border-gray-300 rounded-lg shadow-lg">
-            <img src={project.imageUrl} alt={project.title} className="w-full h-48 object-cover rounded-lg" />
+            <div className="w-full h-48 relative rounded-lg overflow-hidden">
+              <Image src={project.imageUrl} alt={project.title} fill className="object-cover rounded-lg" />
+              </div>
             <h2 className="mt-4 text-2xl font-semibold">{project.title}</h2>
             <p className="mt-2">{project.description}</p>
             {project.githubUrl && (
