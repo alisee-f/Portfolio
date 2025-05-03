@@ -4,8 +4,8 @@ export default function Stage() {
         <h1 className="text-4xl font-bold text-red-600 mb-4 text-center">Stage</h1>
   
         <p className="text-lg mb-6 text-center">
-          Je suis actuellement en stage chez le <strong>Centre de Traitement Informatique (CTI)</strong> de Saint Etienne, une entreprise spécialisée dans le secteur de l informatique.
-          Cette page est dédiée à la présentation de mon stage et des compétences que j ai acquises au cours de cette expérience de 7 semaines.
+          Je suis actuellement en stage chez le <strong>Centre de Traitement Informatique (CTI)</strong> de Saint Etienne.
+          Cette page est dédiée à la présentation de mon stage durant 7 semaines.
         </p>
   
         <section className="mb-8">
