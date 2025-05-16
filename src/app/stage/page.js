@@ -11,17 +11,17 @@ export default function Stage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-700 mb-2">Semaine 1</h2>
           <ul className="list-disc list-inside space-y-1">
-            <li>Initiation à vi et révision des commandes/droits chmod Linux.</li>
-            <li>Rafraîchissement d une base de donnée à l aide de script et en configurant 
+            <li>Initiation à vi et révision des commandes et droits chmod sur Linux.</li>
+            <li>Rafraîchissement d une base de donnée à l aide de scripts et en configurant 
               la crontab de la BDD.</li>
-            <li>Gestion d'un incident sur une base de donnée Informix lié à une requête avec 
-              une erreur d'index. Vérification des bases via un script et test de requêtes afin 
+            <li>Gestion d un incident sur une base de donnée Informix lié à une requête avec 
+              une erreur d index. Vérification des bases via un script et test de requêtes afin 
               de reproduire l erreur et de retrouver l index qui pose problème.</li>
             <li>Gestion d un incident sur centréon lié à une alerte d un serveur Oracle. 
               Nettoyage des erreurs via un script, deplacement du fichier listener qui était au 
               mauvais endroit et trop gros, effacement des anciennes traces.</li>
             <li>Vérification d un rafraîchissement de base de donnée. Vérification de la crontab envoyée
-              par l'agent, vérification du fichie crontab sur la BDD via user_CSM.</li>
+              par l agent, vérification du fichie crontab sur la BDD via user_CSM.</li>
             <li>Configuration des Tuxedos pour qu ils communiquent sur la même adresse.</li>
 
           </ul>
