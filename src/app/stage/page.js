@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 export default function Stage() {
     return (
       <main className="max-w-3xl mx-auto p-6 bg-white text-gray-800 rounded-lg shadow-md">
@@ -11,19 +13,19 @@ export default function Stage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-700 mb-2">Semaine 1</h2>
           <ul className="list-disc list-inside space-y-1">
-            
-            <li>Initiation à vi et révision des commandes et droits chmod sur Linux.</li>
-            <li>Rafraîchissement d&apos;une base de donnée à l&apos;aide de scripts et en configurant 
-              la crontab de la BDD.</li>
-            <li>Gestion d&apos;un incident sur une base de donnée Informix lié à une requête avec 
-              une erreur d&apos;index. Vérification des bases via un script et test de requêtes afin 
-              de reproduire l&apos;erreur et de retrouver l&apos;index qui pose problème.</li>
-            <li>Gestion d&apos;un incident sur Centréon lié à une alerte d&apos;un serveur Oracle. 
-              Nettoyage des erreurs via un script, déplacement du fichier listener qui était au 
-              mauvais endroit et trop gros, effacement des anciennes traces.</li>
-            <li>Vérification d&apos;un rafraîchissement de base de donnée. Vérification de la crontab envoyée
-              par l&apos;agent, vérification du fichier crontab sur la BDD via user_CSM.</li>
-            <li>Configuration des Tuxedos pour qu&apos;ils communiquent sur la même adresse.</li>
+
+          <li>Initiation à vi et révision des commandes et droits chmod sur Linux.</li>
+          <li>Rafraîchissement d'une base de donnée à l'aide de scripts et en configurant 
+            la crontab de la BDD.</li>
+          <li>Gestion d'un incident sur une base de donnée Informix lié à une requête avec 
+            une erreur d'index. Vérification des bases via un script et test de requêtes afin 
+            de reproduire l'erreur et de retrouver l'index qui pose problème.</li>
+          <li>Gestion d'un incident sur Centréon lié à une alerte d'un serveur Oracle. 
+            Nettoyage des erreurs via un script, déplacement du fichier listener qui était au 
+            mauvais endroit et trop gros, effacement des anciennes traces.</li>
+          <li>Vérification d'un rafraîchissement de base de donnée. Vérification de la crontab envoyée
+            par l'agent, vérification du fichier crontab sur la BDD via user_CSM.</li>
+          <li>Configuration des Tuxedos pour qu'ils communiquent sur la même adresse.</li>
 
           </ul>
         </section>
