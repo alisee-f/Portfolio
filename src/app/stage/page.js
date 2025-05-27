@@ -33,8 +33,22 @@ export default function Stage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-700 mb-2">Semaine 2</h2>
           <ul className="list-disc list-inside space-y-1">
-            <li>...</li>
-            <li>...</li>
+            <li>Observation de l'installation des composants d'une application via un synoptique</li>
+            <li>Vérification des composants d’une application via une bulle dans le cadre d’une migration. 
+              Vérification de création d’users, des droits et groupes des users. Vérification de répertoires existants et de leur droits.
+              Modification et/ou création le cas échéant</li>
+            <li>Création de fichiers Excel puis export en CSV dans le cadre d’un ajout de données en masse. 
+              Lister les serveurs manquants sur l’outil Gestion Des Serveurs en comparants la liste des 
+              serveurs disponibles dans session à la liste des serveurs disponibles dans GDS. Export en fichier CSV 
+              destiné au service DSRD pour l’insérer dans des bases de données afin 
+              que les serveurs soient créés et à nouveau disponibles sur GDS</li>
+            <li>Vérification de la configuration d’un client Oracle via une bulle. Vérification de version sqlplus.Vérification
+              du nom du service Oracle par défaut dans une variable. Vérification du contenu dans une variable dans 
+              laquelle est stocké le chemin du fichier tnsnames.ora. Vérification du contenu du fichier tnsnames.ora.
+              Vérification de l’adresse IP et du port de la base sur laquelle la connexion est faite. Vérification du compte 
+              de connexion à la base oracle et son mot de passe via le fichier user_oracle. Vérification des accès 
+              à la base de données via les commandes sqlplus compte_BD/mot_de_passe et 
+              sqlplus compte_BD/mot_de_passe@nom_service_oracle</li>
           </ul>
         </section>
       </main>
