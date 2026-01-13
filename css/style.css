@@ -271,31 +271,52 @@ nav {
 
 .carousel {
   position: relative;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-track {
+  width: 100%;
+  overflow: hidden;
 }
 
 .carousel img {
+  display: none;          /* cache toutes les images */
   width: 100%;
-  border-radius: 18px;
-  display: none;
+  height: auto;
+  border-radius: 8px;
 }
 
 .carousel img.active {
-  display: block;
+  display: block;         /* montre seulement l'image active */
 }
 
 .carousel button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: none;
-  border: none;
+  background: #333;
   color: white;
-  font-size: 2rem;
+  border: none;
+  padding: 8px 12px;
   cursor: pointer;
+  font-size: 20px;
 }
 
-.prev { left: -40px; }
-.next { right: -40px; }
+.prev {
+  left: -40px;
+}
+
+.next {
+  right: -40px;
+}
+
 
 
 section {
